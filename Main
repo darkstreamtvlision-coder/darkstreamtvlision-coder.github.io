@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DARKSTREAM IPTV | Premium Help & Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#111827;
+      --accent:#38bdf8;
+      --text:#e5e7eb;
+      --muted:#94a3b8;
+    }
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:"Segoe UI",system-ui,Arial,sans-serif;
+      background:linear-gradient(180deg,#020617,#0b1220);
+      color:var(--text);
+    }
+
+    header{
+      padding:70px 20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:38px;
+      margin:0;
+      color:var(--accent);
+      letter-spacing:1.2px;
+    }
+
+    header p{
+      margin-top:12px;
+      color:var(--muted);
+      font-size:16px;
+    }
+
+    .container{
+      max-width:1100px;
+      margin:auto;
+      padding:20px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:22px;
+    }
+
+    .card{
+      background:var(--card);
+      border-radius:18px;
+      padding:28px;
+      box-shadow:0 15px 40px rgba(0,0,0,.45);
+    }
+
+    .card h2{
+      margin-top:0;
+      color:var(--accent);
+      font-size:22px;
+      letter-spacing:.5px;
+    }
+
+    .card p, .card li{
+      color:var(--muted);
+      font-size:15px;
+      line-height:1.7;
+    }
+
+    ul{padding-left:18px}
+
+    .buttons{
+      display:flex;
+      flex-wrap:wrap;
+      gap:15px;
+      margin-top:22px;
+    }
+
+    .btn{
+      text-decoration:none;
+      padding:13px 24px;
+      border-radius:12px;
+      font-weight:600;
+      font-size:15px;
+      transition:.3s;
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+    }
+
+    .btn.telegram{
+      background:#229ED9;
+      color:#fff;
+    }
+
+    .btn.facebook{
+      background:#1877F2;
+      color:#fff;
+    }
+
+    .btn:hover{
+      transform:translateY(-3px);
+      opacity:.95;
+    }
+
+    footer{
+      text-align:center;
+      padding:28px;
+      color:var(--muted);
+      font-size:14px;
+      margin-top:50px;
+      border-top:1px solid #1f2933;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>DARKSTREAM IPTV</h1>
+  <p>Premium IPTV Service • Help • About • Support</p>
+</header>
+
+<div class="container">
+  <div class="grid">
+
+    <div class="card">
+      <h2>About Us</h2>
+      <p>
+        DARKSTREAM IPTV একটি মানসম্পন্ন ও নির্ভরযোগ্য IPTV কমিউনিটি।
+        আমাদের লক্ষ্য হলো স্টেবল সার্ভার, দ্রুত সাপোর্ট এবং
+        প্রিমিয়াম মানের ডিজিটাল এন্টারটেইনমেন্ট প্রদান করা।
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Help Center</h2>
+      <ul>
+        <li>Buffer হলে ইন্টারনেট স্পিড চেক করুন</li>
+        <li>Application restart করুন</li>
+        <li>VPN ব্যবহার এড়িয়ে চলুন</li>
+        <li>সবসময় Updated App ব্যবহার করুন</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Support & Contact</h2>
+      <p>
+        যেকোনো সমস্যা, প্রশ্ন বা সাপোর্টের জন্য আমাদের অফিসিয়াল
+        সোশ্যাল প্ল্যাটফর্মে যোগাযোগ করুন।
+      </p>
+
+      <div class="buttons">
+        <a class="btn telegram" href="https://t.me/+PRYRVCPPdlc5ZTU1" target="_blank">
+          Telegram Community
+        </a>
+
+        <a class="btn facebook" href="https://www.facebook.com/profile.php?id=61584938171687" target="_blank">
+          Facebook Page
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  © 2025 DARKSTREAM IPTV — Trusted Premium IPTV Service
+</footer>
+
+</body>
+</html>
